@@ -1,0 +1,14 @@
+header{
+    display:flex;
+    height:200px;
+    align-items: center;
+}
+header div{
+    flex-grow:1;
+}
+header nav menu{
+    display:flex;
+    min-height:40px;
+    align-items:center; 
+    gap:30px;
+}
