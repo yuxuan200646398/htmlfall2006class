@@ -1,0 +1,41 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #141a44;
+  color: #ffffff;
+  text-align: center;
+  line-height: 2;
+  margin: 0;
+  padding: 60px 20px;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+.artist {
+  font-size: 16px;
+  color: #a6acd9;
+}
+.loud {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ffe98b;
+}
+.soft {
+  font-weight: 300;
+  font-style: italic;
+  color: #cfd4f5;
+}
+.high {
+  font-weight: 300;
+  letter-spacing: 4px;
+  color: #a6acd9;
+}
+footer {
+  margin-top: 50px;
+}
+.copyright {
+  font-size: 13px;
+  color: #8389b5;
+}
