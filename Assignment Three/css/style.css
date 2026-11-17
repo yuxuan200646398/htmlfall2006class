@@ -1,0 +1,115 @@
+
+body {/* Page background colour */
+    background-color: #FFC300;
+    margin: 0;
+}
+
+.poster {
+    /* Poster container: fixed size, centred on the page, image is the background */
+    position: relative;
+    width: 480px;
+    height: 720px;
+    margin: 0 auto;
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-position: center bottom;
+}
+
+
+.slogan {
+    /* Top-left tagline block */
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    color: #000;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 0.95;
+    font-family: "Arial Black", sans-serif;
+}
+
+
+.red-word {
+    /* Red accent word inside the tagline */
+    color: #D71920;
+}
+
+
+h1 {
+    /* Main title */
+    position: absolute;
+    top: 380px;
+    left: 20px;
+    right: 20px;
+    margin: 0;
+    color: #000;
+    font-weight: bold;
+    font-size: 64px;
+    letter-spacing: -2px;
+    font-family: "Arial Black", sans-serif;
+}
+
+
+.volume {
+    /* Vertical red volume label */
+    color: #D71920;
+    font-size: 20px;
+    writing-mode: vertical-rl;
+}
+
+
+.tagline {
+    /* Director credit line */
+    position: absolute;
+    top: 540px;
+    left: 20px;
+    right: 20px;
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Arial Black", sans-serif;
+}
+
+
+.cast {
+/* Billing block: small centred credits */
+    position: absolute;
+    top: 600px;
+    left: 30px;
+    right: 30px;
+    margin: 0;
+    text-align: center;
+    font-size: 9px;
+    line-height: 1.4;
+    color: #222;
+}
+
+.cast p {
+    margin: 0;
+}
+
+
+footer {
+    /* Footer: red credit line plus trailer link */
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    right: 20px;
+    margin: 0;
+    text-align: center;
+    color: #D71920;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+footer p {
+    margin: 6px 0;
+}
+
+
+footer a {
+    /* Keep the trailer link subtle so it does not break the poster look */
+    color: #222;
+    font-size: 11px;
+}
